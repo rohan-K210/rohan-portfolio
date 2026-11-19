@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#08090d" />
+  <meta name="description" content="Rohan Krishna — Software Developer building backend systems, AI applications and real-time experiences." />
+  <title>Rohan Krishna — Software Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "https://cdn.jsdelivr.net/npm/three@0.164.1/build/three.module.js"
+      }
+    }
+  </script>
+</head>
+<body>
+  <div class="noise"></div>
+  <div class="cursor-glow" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Rohan Krishna home"><span class="brand-mark">RK</span><span>ROHAN KRISHNA</span></a>
+    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false"><span></span><span></span></button>
+    <nav class="nav-links">
+      <a href="#about">About</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#stack">Stack</a>
+      <a class="nav-contact" href="#contact">Let's talk <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-shell" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="status-dot"></span> SOFTWARE DEVELOPER <span class="eyebrow-line"></span> KERALA, INDIA</div>
+        <h1>Building systems<br>that <span class="gradient-text">move ideas</span><br>into reality<span class="period">.</span></h1>
+        <p class="hero-description">I’m Rohan — a software developer focused on reliable backend systems, practical AI applications and thoughtful digital experiences.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explore my work <span>↘</span></a>
+          <a class="text-link" href="mailto:rohankrishna8a@gmail.com">Get in touch <span>↗</span></a>
+        </div>
+        <div class="hero-meta">
+          <div><span class="meta-label">CURRENTLY</span><span>Part-time Software Developer</span></div>
+          <div><span class="meta-label">FOCUS</span><span>Backend · AI · Systems</span></div>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="visual-grid"></div>
+        <canvas id="hero-canvas" aria-label="Interactive abstract 3D structure"></canvas>
+        <div class="orbit-label orbit-label-top">SYSTEMS / 01</div>
+        <div class="orbit-label orbit-label-bottom">DESIGNING THE UNDERLYING LOGIC</div>
+        <div class="visual-crosshair crosshair-one"></div><div class="visual-crosshair crosshair-two"></div>
+        <div class="visual-index">3D / 001</div>
+      </div>
+      <div class="scroll-cue"><span></span> SCROLL TO EXPLORE</div>
+    </section>
+
+    <section class="intro-strip">
+      <div class="strip-inner"><span>ENGINEERING</span><i></i><span>BACKEND SYSTEMS</span><i></i><span>APPLIED AI</span><i></i><span>REAL-TIME APPLICATIONS</span></div>
+    </section>
+
+    <section class="content-section section-shell" id="about">
+      <div class="section-kicker">01 / ABOUT</div>
+      <div class="about-layout">
+        <div><h2>Curious by nature.<br><span class="muted">Engineer by practice.</span></h2></div>
+        <div class="about-content">
+          <p class="large-copy">I enjoy understanding how things work beneath the surface — from database architecture and authentication to real-time communication and machine learning pipelines.</p>
+          <p>Currently pursuing Computer Science and Engineering at the College of Engineering Trivandrum, while building and shipping software at Orque Innovations. I value clear engineering, dependable systems and learning by building.</p>
+          <div class="about-facts">
+            <div><strong>01</strong><span>Production-minded<br>development</span></div>
+            <div><strong>02</strong><span>Backend-first<br>problem solving</span></div>
+            <div><strong>03</strong><span>Exploring applied<br>machine learning</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section section-shell" id="experience">
+      <div class="section-kicker">02 / EXPERIENCE</div>
+      <div class="section-heading-row"><h2>Where I've<br><span class="muted">been building.</span></h2><p>Turning requirements into working software, one system at a time.</p></div>
+      <div class="timeline">
+        <article class="timeline-item">
+          <div class="timeline-date">JUL 2026 — PRESENT</div>
+          <div class="timeline-main"><div class="timeline-top"><h3>Part-Time Software Developer</h3><span class="timeline-type">CURRENT</span></div><div class="company">Orque Innovations <span>· Trivandrum, Kerala</span></div><p>Continuing product development across internal business applications, with a focus on backend engineering, authentication and system reliability.</p></div>
+        </article>
+        <article class="timeline-item">
+          <div class="timeline-date">MAR 2026 — JUL 2026</div>
+          <div class="timeline-main"><h3>Software Engineering Intern</h3><div class="company">Orque Innovations <span>· Trivandrum, Kerala</span></div>
+            <ul><li>Built and deployed an internal management platform using Spring Boot, Angular, PostgreSQL, Redis, Docker and Nginx.</li><li>Implemented Keycloak/OAuth2 single sign-on across backend and frontend services.</li><li>Developed a MySQL-to-PostgreSQL migration service with real-time progress streaming using Server-Sent Events.</li><li>Designed PostgreSQL row-level security, API rate limiting and seat-based licensing architecture.</li></ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="projects-section" id="projects">
+      <div class="section-shell">
+        <div class="section-kicker">03 / SELECTED WORK</div>
+        <div class="section-heading-row projects-heading"><h2>Built with intent.<br><span class="muted">Made to work.</span></h2><p>A selection of independent and practical engineering projects.</p></div>
+        <div class="project-grid">
+          <article class="project-card project-featured">
+            <div class="project-art art-sargam"><div class="art-orbit orbit-a"></div><div class="art-orbit orbit-b"></div><div class="sound-bars"><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b></div><span class="art-code">AUDIO → NOTATION</span><span class="art-number">01</span></div>
+            <div class="project-info"><div class="project-meta"><span>PYTHON · FLASK · GEMINI · LIBROSA</span><span>AI / AUDIO</span></div><h3>Sargam <span>↗</span></h3><p>An AI-assisted audio-to-notation REST API with a modular six-stage music analysis pipeline, pitch and timing detection, ornament analysis and generated Sargam audio.</p><a class="project-link" href="https://github.com/rohan-K210/Sargam" target="_blank" rel="noreferrer">VIEW SOURCE <span>↗</span></a></div>
+          </article>
+          <article class="project-card">
+            <div class="project-art art-beam"><div class="beam-node node-a"></div><div class="beam-node node-b"></div><div class="beam-node node-c"></div><div class="beam-line line-a"></div><div class="beam-line line-b"></div><div class="beam-line line-c"></div><span class="art-code">PEER ↔ PEER</span><span class="art-number">02</span></div>
+            <div class="project-info"><div class="project-meta"><span>NODE.JS · WEBRTC · WEBSOCKETS</span><span>REAL-TIME</span></div><h3>Beam <span>↗</span></h3><p>Real-time peer-to-peer chat and file transfer with WebRTC data channels, TURN relay fallback, SHA-256 integrity checks and secure signaling.</p><div class="project-links"><a class="project-link" href="https://beam-awcv.onrender.com/" target="_blank" rel="noreferrer">LIVE DEMO <span>↗</span></a><a class="project-link" href="https://github.com/rohan-K210/Beam" target="_blank" rel="noreferrer">SOURCE <span>↗</span></a></div></div>
+          </article>
+          <article class="project-card">
+            <div class="project-art art-cbss"><div class="bank-grid"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div><div class="bank-core">CBSS</div><span class="art-code">MODULAR FINANCE</span><span class="art-number">03</span></div>
+            <div class="project-info"><div class="project-meta"><span>PYTHON · FLASK · MYSQL · SCIKIT-LEARN</span><span>FINTECH / ML</span></div><h3>CBSS <span>↗</span></h3><p>A modular core banking suite of five Flask applications, featuring loan evaluation, fraud and attack detection, customer segmentation and shared MySQL services.</p><a class="project-link" href="https://github.com/rohan-K210/CBSS-Banking-software" target="_blank" rel="noreferrer">VIEW SOURCE <span>↗</span></a></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section section-shell" id="stack">
+      <div class="section-kicker">04 / TOOLKIT</div>
+      <div class="section-heading-row"><h2>The tools behind<br><span class="muted">the work.</span></h2><p>Technologies I use to design, build, test and ship software.</p></div>
+      <div class="stack-grid">
+        <div class="stack-group"><span class="stack-index">01</span><h3>Backend & Data</h3><div class="tag-list"><span>Python</span><span>Flask</span><span>FastAPI</span><span>Java</span><span>Spring Boot</span><span>Node.js</span><span>PostgreSQL</span><span>MySQL</span><span>Redis</span><span>SQLAlchemy</span></div></div>
+        <div class="stack-group"><span class="stack-index">02</span><h3>AI & Machine Learning</h3><div class="tag-list"><span>Gemini API</span><span>Prompt Engineering</span><span>Structured Outputs</span><span>scikit-learn</span><span>librosa</span><span>LLM Agents — learning</span><span>RAG — learning</span></div></div>
+        <div class="stack-group"><span class="stack-index">03</span><h3>Frontend & Security</h3><div class="tag-list"><span>Angular</span><span>TypeScript</span><span>JavaScript</span><span>HTML</span><span>CSS</span><span>Keycloak</span><span>OAuth2 / OIDC</span><span>WebSockets</span><span>SSE</span></div></div>
+        <div class="stack-group"><span class="stack-index">04</span><h3>Infrastructure & Quality</h3><div class="tag-list"><span>Docker</span><span>Docker Compose</span><span>Nginx</span><span>Git</span><span>GitHub Actions</span><span>pytest</span><span>Postman</span></div></div>
+      </div>
+    </section>
+
+    <section class="education-section">
+      <div class="section-shell education-inner"><div><div class="section-kicker">05 / EDUCATION</div><h2>Learning is<br><span class="muted">part of the build.</span></h2></div><div class="education-list"><div><span>2025 — PRESENT</span><h3>B.Tech, Computer Science and Engineering</h3><p>College of Engineering Trivandrum</p></div><div><span>2023 — 2025</span><h3>Higher Secondary Education</h3><p>Sree Maharshi Vidyalaya · 97% aggregate</p></div><div><span>IN PROGRESS</span><h3>Machine Learning Specialization</h3><p>Andrew Ng · Coursera</p></div></div></div>
+    </section>
+
+    <section class="contact-section section-shell" id="contact">
+      <div class="section-kicker">06 / CONTACT</div>
+      <div class="contact-content"><p class="eyebrow">HAVE A PROJECT OR AN INTERESTING PROBLEM?</p><h2>Let's build<br><span class="gradient-text">something meaningful.</span></h2><a class="contact-email" href="mailto:rohankrishna8a@gmail.com">rohankrishna8a@gmail.com <span>↗</span></a></div>
+      <div class="contact-bottom"><div class="social-links"><a href="https://github.com/rohan-K210" target="_blank" rel="noreferrer">GITHUB ↗</a><a href="https://linkedin.com/in/rohan-krishna-440840386" target="_blank" rel="noreferrer">LINKEDIN ↗</a></div><span>TRIVANDRUM, KERALA, INDIA</span></div>
+    </section>
+  </main>
+  <footer class="site-footer"><a class="brand" href="#home"><span class="brand-mark">RK</span><span>ROHAN KRISHNA</span></a><span>DESIGNED & BUILT WITH INTENTION</span><span>© <span id="year"></span> ROHAN KRISHNA</span></footer>
+  <script type="module" src="script.js"></script>
+</body>
+</html>
